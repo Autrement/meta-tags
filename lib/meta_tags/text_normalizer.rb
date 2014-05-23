@@ -14,11 +14,11 @@ module MetaTags
     #
     # @param [String] description description string.
     # @return [String] text with tags removed, squashed spaces, truncated
-    # to 200 characters.
+    # to 300 characters.
     #
     def self.normalize_description(description)
       return '' if description.blank?
-      helpers.truncate(cleanup_string(description), :length => 200)
+      helpers.truncate(cleanup_string(description), :length => 300)
     end
 
     # Normalize keywords value.
