@@ -79,7 +79,7 @@ module MetaTags
     #
     # @param [String] description page description to be set in HEAD section of
     #   the HTML document. Please note, any HTML tags will be stripped
-    #   from output string, and string will be truncated to 200
+    #   from output string, and string will be truncated to 300
     #   characters.
     # @return [String] passed value.
     #
